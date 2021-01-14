@@ -4,7 +4,7 @@ Blog site, my college project created using python flask framework, HTML and CSS
 ## Python related
 [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
 
-[My App](https://mrchathan.herokuapp.com/)
+`[My App](https://mrchathan.herokuapp.com/)`
 You can use this for your educational purpose. It currently deployed in Heroku(its free) just visit my app look around. 
 
 ## Installation
