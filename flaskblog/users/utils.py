@@ -13,12 +13,12 @@ def save_picture(form_picture):
 	random_hex = secrets.token_hex(8) #8 bytes	
 	_, f_ext = os.path.splitext(form_picture.filename)
 	picture_fn = random_hex + f_ext
-	picture_path = os.path.join(current_app.root_path, 'static/profile_pics', picture_fn)
+	picture_path = os.path.join(current_app.root_path, 'static/images', picture_fn)
 	output_size = (170, 170)
 	i = Image.open(form_picture)
 	i.thumbnail(output_size, Image.ANTIALIAS)
 	i.save(picture_path)
-	os.remove(os.path.join(current_app.root_path, 'static/profile_pics', del_file))  #deleting the old profile pic after new pic is updated
+	os.remove(os.path.join(current_app.root_path, 'static/images', del_file))  #deleting the old profile pic after new pic is updated
 	return picture_fn
 
 

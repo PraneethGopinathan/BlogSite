@@ -63,14 +63,14 @@ def account():
 		current_user.username = form.username.data
 		current_user.email = form.email.data
 		db.session.commit()
-		del_file = url_for('static',filename='profile_pics/' + current_user.img)
+		del_file = url_for('static',filename='images/' + current_user.img)
 
 		flash('Your account has been updated!', 'success')
 		return redirect(url_for('users.account'))
 	elif request.method == 'GET':
 		form.username.data = current_user.username
 		form.email.data = current_user.email
-	image_file = url_for('static',filename='profile_pics/' + current_user.img) #img is the column name for image in db look for User class in the models.py 
+	image_file = url_for('static',filename='images/' + current_user.img) #img is the column name for image in db look for User class in the models.py 
 	return render_template('account.html', title='Account', image_file=image_file, form=form)
 
 
