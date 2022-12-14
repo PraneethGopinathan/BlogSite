@@ -28,4 +28,6 @@ Now enjoy the web app 😉.
 
 Huh? 🤨 Wot dis? Click at your own risk!
 
+Screenshots[/static/profile_pics/card.png]
+
 
