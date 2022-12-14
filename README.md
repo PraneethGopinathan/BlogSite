@@ -28,6 +28,4 @@ Now enjoy the web app 😉.
 
 Huh? 🤨 Wot dis? Click at your own risk!
 
-<div align="center">
-    <a href="https://youtu.be/Hr_9b-Lt-pk?t=12s"> <img src="https://www.flaticon.com/svg/static/icons/svg/3325/3325082.svg" height=100 width=100 alt="red" style="align:center"> </a>
-</div>
+
