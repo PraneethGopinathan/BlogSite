@@ -28,6 +28,7 @@ Now enjoy the web app 😉.
 
 Huh? 🤨 Wot dis? Click at your own risk!
 
-Screenshots(ss)[/static/profile_pics/card.png]
+Screenshots
+<img src="/static/profile_pics/card.png">
 
 
