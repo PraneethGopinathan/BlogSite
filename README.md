@@ -28,7 +28,15 @@ Now enjoy the web app 😉.
 
 Huh? 🤨 Wot dis? Click at your own risk!
 
-Screenshots
+## Screenshots
+### Main Page
 <img src="flaskblog/static/images/screenshot.png">
+
+
+### Login Page
+<img src="flaskblog/static/images/login.png">
+
+### Register Page
+<img src="flaskblog/static/images/register.png">
 
 
