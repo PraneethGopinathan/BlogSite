@@ -38,7 +38,7 @@ Make sure you installed the docker and docker compose (optional)
 
 5. `Open http:0.0.0.0:5000 in the browser` 
 
-### Docker Compose method 
+#### Docker Compose method 
 Make sure you isntalled the docker compose
 1. `docker compose up --build`
 2. `Open http:0.0.0.0:5000 in the browser` 
